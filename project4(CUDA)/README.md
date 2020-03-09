@@ -27,35 +27,32 @@ In the Figures 1 to 15, it appears that the correlation between efficiency and p
 We used this function to detect the edge of image. The outputs will show below.
 
 <img src = "https://www.researchgate.net/profile/Hugo_Hidalgo-Silva/publication/253682881/figure/fig2/AS:298135596355602@1448092473989/Lena-Original-Image-512x512-pixels.png" width= "300"/>
-</br>
 Figure1. Original
+</br>
 
 <img src = "https://i.imgur.com/jyEFMza.png" width= "300" />
-</br>
 Figure2. Horizontal convolve
 
-<img src = "https://i.imgur.com/DpQFF4h.png" width= "300" />
 </br>
+<img src = "https://i.imgur.com/DpQFF4h.png" width= "300" />
 Figure3. Vertical convolve
 
-<img src = "https://i.imgur.com/JG6L8dL.png" width= "300" />
 </br>
+<img src = "https://i.imgur.com/JG6L8dL.png" width= "300" />
 Figure4. Direction
 
-<img src = "https://i.imgur.com/It1w4z3.png" width= "300" />
 </br>
+<img src = "https://i.imgur.com/It1w4z3.png" width= "300" />
 Figure5. Magnitude
 
+</br>
 <img src = "https://i.imgur.com/BAiT02k.png" width= "300" />
-</br>
 Figure6. Hysteresis
-
+</br>
 <img src = "https://i.imgur.com/XoQKYuZ.png" width= "300" />
-</br>
 Figure7. Suppress
-
-<img src = "https://i.imgur.com/kOs0FFR.png" width= "300" />
 </br>
+<img src = "https://i.imgur.com/kOs0FFR.png" width= "300" />
 Figure8. Result
 
 
