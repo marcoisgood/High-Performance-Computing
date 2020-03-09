@@ -1,4 +1,4 @@
-#Analysis of the Execution Time Variation of OpenMp with Canny Edge Detection and Feature Detector
+#Analysis of the Execution Time Variation of CUDA with Canny Edge Detection
 ---
 **01/2019 ECPE 251 High-Performance Computing  
 Professor: Venkittaraman Krishnamani </br> University of the Pacific**
