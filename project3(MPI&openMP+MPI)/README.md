@@ -63,7 +63,9 @@ Figure7. Suppress
 </br>
 Figure8. Result
 </br>
-
+</br>
+We used this function to detect the edge of image. In order to effectively reduce our execution time. We used Open MPI and OpenMP to implement our parallelization. In Open MPI process, we need to consider the right communication between each processor for sending and receiving the data.
+In the Figures 1 to 15, it appears that the correlation between efficiency and processors and threads. When we used 4 processors to performance it, the efficiency up to 160 percent. The range of efficiency is from 90 (2 processors) to 300 (32 processors). And, Range of speed up is from 1.5 to 9.
 
 <h4 id='4'>Parallelization methodology</h4>
 
