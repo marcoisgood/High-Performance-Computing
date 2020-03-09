@@ -1,8 +1,7 @@
 #Implementation of Canny Edge Detector
-**
+-
 01/2019 ECPE 251 High-Performance Computing  
 Professor: Venkittaraman Krishnamani </br> University of the Pacific
-**
 
 
 Using the following picture to test our edge detection algorithm:
