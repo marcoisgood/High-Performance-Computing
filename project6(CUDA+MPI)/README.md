@@ -8,11 +8,12 @@ ___
 - [Introduction](#1)
 - [Implementation](#2)
 	- [Canny edge detector with CUDA](#3)
-	- [Corner detection on GPU](#4)
-	- [Testing](#5)
-	- [Performance Modeling](#6)
-- [Result and analysis](#7)
-- [Conclusion](#8)
+	- [CUDA+MPI](#4)
+	- [CUDA Aware MPI](#5)
+	- [Remote Memory Access](#6)
+	- [Unified Virtual Addressing (UVA)](#7)
+- [Result and analysis](#8)
+- [Conclusion](#9)
 
 ---
 
@@ -86,7 +87,6 @@ Figure8. Result
 
 > cudaMemcpy(output,d_temp_horizon,sizeof(float)*width*height,cudaMemcpyDeviceToHost);
 
---
 
 <h4 id='5'> CUDA Aware MPI </h4>
 
@@ -121,7 +121,7 @@ Figure8. Result
 <img src ="https://i.imgur.com/5S9v5Jm.png" width =500/>
 <img src ="https://i.imgur.com/W3AxWHW.png" width =500/>
 
-<h3 id='8'> Conclusion </h3>
+<h3 id='9'> Conclusion </h3>
 * Indirect usage of GPU buffers affects computation time
 * CUDA+MPI speedup is not better than CUDA 
 * Probably CUDA aware MPI could overcome those problems
